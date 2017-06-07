@@ -315,3 +315,14 @@ header {
 
 
 /* FOOTER SECTION */
+
+footer {
+  align-items: center;
+  margin-left: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+display: inline;
+}

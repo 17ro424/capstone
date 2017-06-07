@@ -1,0 +1,317 @@
+
+/* UNIVERSAL STYLING */
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+ p {
+   line-height: 1.6;
+ }
+
+/* HEADER AND NAVIGATION */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.desktop-nav {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.nav-logo img {
+  height: 50px;
+}
+
+.nav-logo p {
+  display: inline;
+}
+
+.logo-text {
+  font-size: 24px;
+}
+
+.logo-text span {
+  font-weight: 600;
+}
+
+.desktop-nav li {
+  display: inline;
+  padding-left: 16px;
+}
+
+.desktop-nav li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.desktop-nav ul {
+  margin-right: 24px;
+}
+
+/* MEDIA QUERIES FOR HEADER */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  .desktop-nav {
+    display: none;
+  }
+
+
+}
+
+
+/* MAIN SECTION */
+.main {
+  margin-top: 64px;
+  background-color: grey;
+  display: flex;
+}
+
+.lrg-image {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.lrg-image img {
+  width: 100%;
+}
+
+.intro {
+  width: 40%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.start-btn {
+  background-color: green;
+  text-align: center;
+  width: 300px;
+  padding: 8px;
+  margin-top: 40px;
+
+}
+
+.intro a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* MEDIA QUERIES FOR MAIN SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+
+/* CAMPUS SECTION */
+.campus {
+  display: flex;
+}
+
+.mobile-pic {
+  display: none;
+}
+
+.lrg-image h1,
+.quote-credit {
+  margin-top: 32px;
+}
+
+.events {
+  width: 41.15%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid blue;
+}
+
+.orientation,
+.our-campus,
+.lecture {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid blue;
+  padding-left: 16px;
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-pic {
+  width: 35%;
+  margin: 16px 16px 16px 0px;
+}
+
+.event-info p {
+  margin-top: 8px;
+}
+
+.read-more {
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+
+/* MEDIA QUERIES FOR CAMPUS SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+.desktop-pic {
+  display: none;
+}
+
+
+}
+
+
+/* COURSES SECTION */
+.courses {
+  background-color: lightgrey;
+  padding-bottom: 16px;
+}
+
+.courses h1,
+.thesis h1 {
+  padding-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.course-selections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.course-option {
+  background-color: white;
+  width: 30%;
+  margin: 0px 16px 16px 16px;
+}
+.course-img {
+  width: 100%;
+}
+.course-description {
+  margin: 16px 16px 24px 16px;
+}
+.course-description p {
+  padding-top: 8px;
+}
+
+/* MEDIA QUERIES FOR COURSES SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+/* THESIS SECTION */
+.exhibits {
+  display: flex;
+}
+
+.thesis {
+  padding-bottom: 32px;
+}
+
+.video-div {
+  width: 60%;
+  padding: 0px 16px 24px 24px;
+}
+
+.video-div video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.video-div p {
+  padding-top: 24px;
+}
+
+.sub-exhibits {
+  width: 40%;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.feature-img {
+  width: 35%;
+  padding: 16px;
+}
+
+/* MEDIA QUERIES FOR THESIS SECTION */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+/* FOOTER SECTION */

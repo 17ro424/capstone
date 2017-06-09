@@ -77,6 +77,10 @@ header {
   margin-right: 24px;
 }
 
+.desktop-nav  li a:hover {
+  color: blue;
+}
+
 /* MEDIA QUERIES FOR HEADER */
 @media only screen and (max-width: 768px) {
 
@@ -124,6 +128,7 @@ header {
   padding: 8px;
   margin-top: 40px;
   border-radius: 6px;
+  box-shadow: 10px 5px 5px rgb(67, 79, 90);
 }
 
 .intro a {

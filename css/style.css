@@ -96,7 +96,7 @@ header {
 /* MAIN SECTION */
 .main {
   margin-top: 64px;
-  background-color: grey;
+  background-color: hsl(0, 2%, 73%);
   display: flex;
 }
 
@@ -118,12 +118,12 @@ header {
 }
 
 .start-btn {
-  background-color: green;
+  background-color: blue;
   text-align: center;
   width: 300px;
   padding: 8px;
   margin-top: 40px;
-
+  border-radius: 6px;
 }
 
 .intro a {
@@ -165,7 +165,6 @@ header {
   width: 41.15%;
   display: flex;
   flex-direction: column;
-  border-left: 1px solid blue;
 }
 
 .orientation,
@@ -173,8 +172,28 @@ header {
 .lecture {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid blue;
   padding-left: 16px;
+}
+
+.orientation {
+  padding: 16px 16px;
+  border: 2px solid blue;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.our-campus {
+  padding: 16px 16px;
+  border: 2px solid blue;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.lecture {
+  padding: 16px 16px;
+  border: 2px solid blue;
+  border-radius: 6px;
 }
 
 .event-info {
@@ -196,6 +215,14 @@ header {
   margin-top: 8px;
 }
 
+.lecture {
+  background-color: hsl(0, 2%, 73%);
+  padding: 16px 16px;
+  margin-bottom: 50px;
+}
+.lecture .desktop-pic {
+  margin: 16px 16px;
+}
 
 /* MEDIA QUERIES FOR CAMPUS SECTION */
 @media only screen and (max-width: 768px) {
@@ -215,7 +242,7 @@ header {
 
 /* COURSES SECTION */
 .courses {
-  background-color: lightgrey;
+  background-color: hsl(0, 2%, 73%);
   padding-bottom: 16px;
 }
 
@@ -299,6 +326,19 @@ header {
   width: 35%;
   padding: 16px;
 }
+.sub-exhibits .first {
+  background-color: hsl(0, 2%, 73%);
+  padding: 16px 16px;
+  border: 2px solid blue;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.sub-exhibits .second {
+  padding: 16px 16px;
+  border: 2px solid blue;
+  border-radius: 6px;
+}
 
 /* MEDIA QUERIES FOR THESIS SECTION */
 @media only screen and (max-width: 768px) {
@@ -318,11 +358,24 @@ header {
 
 footer {
   align-items: center;
-  margin-left: 24px;
   display: flex;
   justify-content: space-between;
 }
 
+footer {
+  border-top: 1px solid blue;
+}
+
 footer li {
 display: inline;
+padding: 12px 12px;
+}
+footer li a {
+  text-decoration: none;
+  padding-top: 12px;
+}
+.copyright {
+  padding-top: 12px;
+  margin-left: 24px;
+  padding-bottom: 12px;
 }

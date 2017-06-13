@@ -78,7 +78,7 @@ header {
 }
 
 .desktop-nav  li a:hover {
-  color: blue;
+  color: dodgerblue;
 }
 
 /* MEDIA QUERIES FOR HEADER */
@@ -92,8 +92,15 @@ header {
   .desktop-nav {
     display: none;
   }
-
-
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-nav li {
+  display: inline;
+  padding-left: 3.5rem;
+  }
 }
 
 
@@ -122,7 +129,7 @@ header {
 }
 
 .start-btn {
-  background-color: blue;
+  background-color: dodgerblue;
   text-align: center;
   width: 300px;
   padding: 8px;
@@ -146,7 +153,7 @@ header {
 
 @media only screen and (max-width: 480px) {
 
-
+nav .mobile-nav {}
 
 }
 
@@ -182,7 +189,7 @@ header {
 
 .orientation {
   padding: 16px 16px;
-  border: 2px solid blue;
+  border: 2px solid dodgerblue;
   border-radius: 6px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -190,14 +197,14 @@ header {
 
 .our-campus {
   padding: 16px 16px;
-  border: 2px solid blue;
+  border: 2px solid dodgerblue;
   border-radius: 6px;
   margin-bottom: 30px;
 }
 
 .lecture {
   padding: 16px 16px;
-  border: 2px solid blue;
+  border: 2px solid dodgerblue;
   border-radius: 6px;
 }
 
@@ -221,7 +228,6 @@ header {
 }
 
 .lecture {
-  background-color: hsl(0, 2%, 73%);
   padding: 16px 16px;
   margin-bottom: 50px;
 }
@@ -229,6 +235,16 @@ header {
   margin: 16px 16px;
 }
 
+.orientation:hover {
+  background-color: hsl(0, 2%, 73%)
+}
+
+.lecture:hover {
+  background-color: hsl(0, 2%, 73%)
+}
+.our-campus:hover {
+  background-color: hsl(0, 2%, 73%)
+}
 /* MEDIA QUERIES FOR CAMPUS SECTION */
 @media only screen and (max-width: 768px) {
 
@@ -332,17 +348,24 @@ header {
   padding: 16px;
 }
 .sub-exhibits .first {
-  background-color: hsl(0, 2%, 73%);
   padding: 16px 16px;
-  border: 2px solid blue;
+  border: 2px solid dodgerblue;
   border-radius: 6px;
   margin-bottom: 20px;
 }
 
+.sub-exhibits .first:hover {
+  background-color: hsl(0, 2%, 73%);
+}
+
 .sub-exhibits .second {
   padding: 16px 16px;
-  border: 2px solid blue;
+  border: 2px solid dodgerblue;
   border-radius: 6px;
+}
+
+.sub-exhibits .second:hover {
+  background-color: hsl(0, 2%, 73%);
 }
 
 /* MEDIA QUERIES FOR THESIS SECTION */
@@ -368,7 +391,7 @@ footer {
 }
 
 footer {
-  border-top: 1px solid blue;
+  border-top: 1px solid dodgerblue;
 }
 
 footer li {

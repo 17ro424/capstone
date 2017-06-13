@@ -96,14 +96,23 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 .mobile-nav li {
   display: inline;
   padding-left: 3.5rem;
-  }
+  padding-top: 3.5rem;
 }
 
 
+.mobile-nav {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+ }
+
+}
 /* MAIN SECTION */
 .main {
   margin-top: 64px;
@@ -153,8 +162,9 @@ header {
 
 @media only screen and (max-width: 480px) {
 
-nav .mobile-nav {}
-
+.main {
+  flex-direction: column;
+}
 }
 
 
@@ -256,7 +266,23 @@ nav .mobile-nav {}
 .desktop-pic {
   display: none;
 }
+.events {
+ width: 100%;
 
+}
+.mobile-pic {
+display: block;
+width: 100%;
+margin-right: 2rem;
+margin-left: 2rem;
+}
+.lrg-image {
+  display: none;
+}
+
+.orientation, .our-campus, .lecture {
+  flex-direction: column;
+}
 
 }
 
@@ -305,7 +331,6 @@ nav .mobile-nav {}
 
 
 @media only screen and (max-width: 480px) {
-
 
 
 }
@@ -376,8 +401,12 @@ nav .mobile-nav {}
 
 
 @media only screen and (max-width: 480px) {
-
-
+.sub-exhibits {
+  display: none;
+}
+.exhibits h3, .quote {
+  display: none;
+}
 
 }
 
